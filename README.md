@@ -17,6 +17,12 @@ git clone {repository URL}
 npm install
 ```
 
+or
+
+```
+npm ci
+```
+
 ## Running application
 
 ```
@@ -32,6 +38,8 @@ For more information about OpenAPI/Swagger please visit https://swagger.io/.
 After application running open new terminal and enter:
 
 To run all tests without authorization
+
+#### DON'T FORGET TO RUN SERVER BEFORE TESTS!
 
 ```
 npm run test
